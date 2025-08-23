@@ -1,0 +1,506 @@
+[
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Andrew",
+      "last": "James"
+    },
+    "location": {
+      "street": {
+        "number": 9595,
+        "name": "Albert Road"
+      },
+      "city": "Shannon",
+      "state": "Limerick",
+      "country": "Ireland",
+      "postcode": 86930,
+      "coordinates": {
+        "latitude": "1.8399",
+        "longitude": "-61.9471"
+      },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      }
+    },
+    "email": "andrew.james@example.com",
+    "login": {
+      "uuid": "07df0d8d-a1e6-4c16-80d8-743bdfb6e36c",
+      "username": "smalllion517",
+      "password": "515151",
+      "salt": "Pe4BUfzd",
+      "md5": "d7b0afb94e14bccf97ca43dacef87efc",
+      "sha1": "041ca1a206db90f1afffbeb85a5bcbfd34c7937f",
+      "sha256": "07a257ea168de3160006cb5708c312d15f44a8bd000df40cab2fb0cf74ca4e7b"
+    },
+    "dob": {
+      "date": "1961-11-21T00:17:09.848Z",
+      "age": 63
+    },
+    "registered": {
+      "date": "2006-07-22T10:19:23.802Z",
+      "age": 19
+    },
+    "phone": "061-973-9147",
+    "cell": "081-287-6422",
+    "id": {
+      "name": "PPS",
+      "value": "0779571T"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/68.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/68.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg"
+    },
+    "nat": "IE"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Lillian",
+      "last": "Watkins"
+    },
+    "location": {
+      "street": {
+        "number": 372,
+        "name": "Miller Ave"
+      },
+      "city": "Miami",
+      "state": "Wisconsin",
+      "country": "United States",
+      "postcode": 49183,
+      "coordinates": {
+        "latitude": "83.3003",
+        "longitude": "73.5558"
+      },
+      "timezone": {
+        "offset": "+3:00",
+        "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+      }
+    },
+    "email": "lillian.watkins@example.com",
+    "login": {
+      "uuid": "9f68088f-6125-4b12-8985-752c98f5aff9",
+      "username": "greenladybug433",
+      "password": "lopez",
+      "salt": "dkuRgkcI",
+      "md5": "683cf2bfed8d3ce205011b727e36d855",
+      "sha1": "007b7fc3d12d39879228f3dd1771d781b6281260",
+      "sha256": "41ea64f5d3847450779d3d7a549ac7130ca016a67d52276b3c69ed1f3e037ca3"
+    },
+    "dob": {
+      "date": "1953-11-07T06:04:49.834Z",
+      "age": 71
+    },
+    "registered": {
+      "date": "2017-07-31T11:05:43.331Z",
+      "age": 8
+    },
+    "phone": "(693) 799-5678",
+    "cell": "(843) 534-7106",
+    "id": {
+      "name": "SSN",
+      "value": "783-11-6195"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/57.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/57.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/57.jpg"
+    },
+    "nat": "US"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Wayne",
+      "last": "Adams"
+    },
+    "location": {
+      "street": {
+        "number": 1978,
+        "name": "Mill Lane"
+      },
+      "city": "Sallins",
+      "state": "Westmeath",
+      "country": "Ireland",
+      "postcode": 81959,
+      "coordinates": {
+        "latitude": "-4.1600",
+        "longitude": "-123.0525"
+      },
+      "timezone": {
+        "offset": "+4:00",
+        "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+      }
+    },
+    "email": "wayne.adams@example.com",
+    "login": {
+      "uuid": "f0936dec-2199-4b34-b9cd-45910275e2bf",
+      "username": "smallswan331",
+      "password": "moonligh",
+      "salt": "kgKMSnrn",
+      "md5": "98da3a1e0012945fa0cadc95592d23fd",
+      "sha1": "d0c24384dbff75973e0a7b98240a0b3ffe81d08d",
+      "sha256": "fe3adff5780668aab6604727552440e2dcc0d79a89d93dd842be866ab355db07"
+    },
+    "dob": {
+      "date": "1963-01-06T02:30:44.816Z",
+      "age": 62
+    },
+    "registered": {
+      "date": "2014-04-14T01:35:30.156Z",
+      "age": 11
+    },
+    "phone": "011-143-9179",
+    "cell": "081-542-6786",
+    "id": {
+      "name": "PPS",
+      "value": "8626851T"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/9.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+    },
+    "nat": "IE"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Lylou",
+      "last": "Dupuis"
+    },
+    "location": {
+      "street": {
+        "number": 5247,
+        "name": "Route de Genas"
+      },
+      "city": "Clermont-Ferrand",
+      "state": "Saône-et-Loire",
+      "country": "France",
+      "postcode": 60733,
+      "coordinates": {
+        "latitude": "-14.0218",
+        "longitude": "115.4471"
+      },
+      "timezone": {
+        "offset": "-10:00",
+        "description": "Hawaii"
+      }
+    },
+    "email": "lylou.dupuis@example.com",
+    "login": {
+      "uuid": "a421853d-955f-404e-bfd0-49ba16f77cf9",
+      "username": "angryfish659",
+      "password": "stalker",
+      "salt": "uv0as5T0",
+      "md5": "d8850e78e52de0fd0dd0d756a0f58b28",
+      "sha1": "6483af8dc29054c2293df1f5332f8243e16bce15",
+      "sha256": "482bacf8982972f4bbf7af0e3ec87febd804630de10ad2be89e67ef4dd116def"
+    },
+    "dob": {
+      "date": "1986-10-27T16:24:37.685Z",
+      "age": 38
+    },
+    "registered": {
+      "date": "2015-07-20T08:38:20.105Z",
+      "age": 10
+    },
+    "phone": "03-94-47-95-08",
+    "cell": "06-71-55-25-59",
+    "id": {
+      "name": "INSEE",
+      "value": "286095843629991"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/7.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+    },
+    "nat": "FR"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Mirjam",
+      "last": "Schroth"
+    },
+    "location": {
+      "street": {
+        "number": 1411,
+        "name": "Schillerstraße"
+      },
+      "city": "Weißenstadt",
+      "state": "Hamburg",
+      "country": "Germany",
+      "postcode": 52642,
+      "coordinates": {
+        "latitude": "-49.7351",
+        "longitude": "3.9059"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      }
+    },
+    "email": "mirjam.schroth@example.com",
+    "login": {
+      "uuid": "bc4e2df5-7333-4607-b320-72681bcd7b41",
+      "username": "angryladybug232",
+      "password": "billbill",
+      "salt": "nnozdEom",
+      "md5": "e30668989e7544f576b84c0c8f95339b",
+      "sha1": "ccb96db5974f01587a75cb6d4fb9e79d7f9d7d75",
+      "sha256": "853a2cbd1c416b874c74ab663efd03d40740c6be702c9a8e575dee89e6a2ee4b"
+    },
+    "dob": {
+      "date": "1968-11-15T18:51:59.328Z",
+      "age": 56
+    },
+    "registered": {
+      "date": "2012-05-22T00:05:46.620Z",
+      "age": 13
+    },
+    "phone": "0678-4620201",
+    "cell": "0173-2608777",
+    "id": {
+      "name": "SVNR",
+      "value": "02151168S557"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/6.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+    },
+    "nat": "DE"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Asuman",
+      "last": "Bruijnes"
+    },
+    "location": {
+      "street": {
+        "number": 7427,
+        "name": "De Schimmerik"
+      },
+      "city": "Oostburg",
+      "state": "Limburg",
+      "country": "Netherlands",
+      "postcode": "3426 TX",
+      "coordinates": {
+        "latitude": "36.4015",
+        "longitude": "99.5738"
+      },
+      "timezone": {
+        "offset": "+11:00",
+        "description": "Magadan, Solomon Islands, New Caledonia"
+      }
+    },
+    "email": "asuman.bruijnes@example.com",
+    "login": {
+      "uuid": "11dfb6a7-0669-49ce-8d6c-890457a4ae07",
+      "username": "silverlion653",
+      "password": "harold",
+      "salt": "yAMKY6VZ",
+      "md5": "753c757626a49356cb3bababe741dc70",
+      "sha1": "d8a49b9b11d91902e4486f42c1dbdb5e23196c88",
+      "sha256": "fb34003bd227da7fd87f2a598b4ef587840067ced9a3e5c5e58d2c5e21270044"
+    },
+    "dob": {
+      "date": "1946-05-19T02:38:55.206Z",
+      "age": 79
+    },
+    "registered": {
+      "date": "2007-08-07T04:09:34.101Z",
+      "age": 18
+    },
+    "phone": "(046) 2680416",
+    "cell": "(06) 99804928",
+    "id": {
+      "name": "BSN",
+      "value": "48237205"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/33.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/33.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/33.jpg"
+    },
+    "nat": "NL"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Philip",
+      "last": "Ross"
+    },
+    "location": {
+      "street": {
+        "number": 4700,
+        "name": "Oak St"
+      },
+      "city": "Campbellton",
+      "state": "Nova Scotia",
+      "country": "Canada",
+      "postcode": "C8X 6E1",
+      "coordinates": {
+        "latitude": "-64.5808",
+        "longitude": "-132.3155"
+      },
+      "timezone": {
+        "offset": "+7:00",
+        "description": "Bangkok, Hanoi, Jakarta"
+      }
+    },
+    "email": "philip.ross@example.com",
+    "login": {
+      "uuid": "ccc7a171-8a7a-4318-ba9f-824148a4b818",
+      "username": "organicwolf573",
+      "password": "ncc74656",
+      "salt": "GPBQnhGl",
+      "md5": "16699999b36210585b39a7ae7ff20a65",
+      "sha1": "664d8bd9cb903a3768b70bd41373c9c383f21aca",
+      "sha256": "12bcc321072be0dffc1acc0b70699d2a52707e40812907df11bde89973752790"
+    },
+    "dob": {
+      "date": "1955-03-05T19:54:57.554Z",
+      "age": 70
+    },
+    "registered": {
+      "date": "2007-04-25T19:06:02.529Z",
+      "age": 18
+    },
+    "phone": "H56 H75-0516",
+    "cell": "L06 G97-1820",
+    "id": {
+      "name": "SIN",
+      "value": "810090597"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/9.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+    },
+    "nat": "CA"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Mason",
+      "last": "Brown"
+    },
+    "location": {
+      "street": {
+        "number": 1885,
+        "name": "Lakeview Ave"
+      },
+      "city": "Grand Falls",
+      "state": "Nunavut",
+      "country": "Canada",
+      "postcode": "E8F 6O3",
+      "coordinates": {
+        "latitude": "-71.9880",
+        "longitude": "-57.3770"
+      },
+      "timezone": {
+        "offset": "-6:00",
+        "description": "Central Time (US & Canada), Mexico City"
+      }
+    },
+    "email": "mason.brown@example.com",
+    "login": {
+      "uuid": "92339697-963a-4030-8c29-6a61a723374a",
+      "username": "blackmeercat444",
+      "password": "scania",
+      "salt": "KxlNcmaX",
+      "md5": "0a75ac8bb46b5c964d09153edbaa8329",
+      "sha1": "f35e68f289e7cfe1079e275d080a22e38aa522e5",
+      "sha256": "0ce4ea6f4e7545fc95a034f60e263b76a6599164e4244a71662e76c7582dcc71"
+    },
+    "dob": {
+      "date": "1982-03-21T15:39:29.538Z",
+      "age": 43
+    },
+    "registered": {
+      "date": "2009-11-25T09:32:20.294Z",
+      "age": 15
+    },
+    "phone": "R41 F24-2695",
+    "cell": "S00 U04-2710",
+    "id": {
+      "name": "SIN",
+      "value": "940152853"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/9.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+    },
+    "nat": "CA"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Vilenina",
+      "last": "Starchenko"
+    },
+    "location": {
+      "street": {
+        "number": 6829,
+        "name": "Pavla Grabovskogo"
+      },
+      "city": "Krasnogorivka",
+      "state": "Luganska",
+      "country": "Ukraine",
+      "postcode": 92157,
+      "coordinates": {
+        "latitude": "76.0369",
+        "longitude": "88.8634"
+      },
+      "timezone": {
+        "offset": "+3:30",
+        "description": "Tehran"
+      }
+    },
+    "email": "vilenina.starchenko@example.com",
+    "login": {
+      "uuid": "2cc9a477-eed8-4f5d-a616-6760a1dfd208",
+      "username": "happykoala496",
+      "password": "alleycat",
+      "salt": "51F7u1Az",
+      "md5": "3109ea41829c5b3c24d6b92fa32c894c",
+      "sha1": "851f0571d47885c00e6b6f509b6b4afe5c10c2b4",
+      "sha256": "d052232351961bb8a9e9388282fabdbb1d8dcb424adeb48e24f68145076b5ede"
+    },
+    "dob": {
+      "date": "1967-09-06T11:15:08.338Z",
+      "age": 57
+    },
+    "registered": {
+      "date": "2002-06-14T12:41:31.556Z",
+      "age": 23
+    },
+    "phone": "(066) V98-1051",
+    "cell": "(099) L58-9232",
+    "id": {
+      "name": "",
+      "value": "932582309980022"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/63.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/63.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
+    },
+    "nat": "UA"
+  }
+]

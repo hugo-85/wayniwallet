@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "internet",
+    "amount": 24,
+    "date": "2025-08-21T16:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "type": "transfer",
+    "amount": 600,
+    "date": "2025-08-20T16:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "type": "income",
+    "amount": 260,
+    "date": "2025-08-15T15:30:00.000Z"
+  },
+  {
+    "id": 4,
+    "type": "insurance",
+    "amount": 100,
+    "date": "2025-08-10T16:30:00.000Z"
+  },
+  {
+    "id": 5,
+    "type": "transfer",
+    "amount": 500,
+    "date": "2025-07-24T16:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "type": "income",
+    "amount": 350,
+    "date": "2025-07-16T15:30:00.000Z"
+  }
+]
