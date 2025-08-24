@@ -502,5 +502,61 @@
       "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
     },
     "nat": "UA"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Bently",
+      "last": "Liu"
+    },
+    "location": {
+      "street": {
+        "number": 8432,
+        "name": "Queen St"
+      },
+      "city": "Lumsden",
+      "state": "Yukon",
+      "country": "Canada",
+      "postcode": "S1T 9L1",
+      "coordinates": {
+        "latitude": "-72.1997",
+        "longitude": "-78.9401"
+      },
+      "timezone": {
+        "offset": "+7:00",
+        "description": "Bangkok, Hanoi, Jakarta"
+      }
+    },
+    "email": "bently.liu@example.com",
+    "login": {
+      "uuid": "28ddc8f5-0eea-4d73-95cd-d8d229b3ecfa",
+      "username": "silversnake859",
+      "password": "flicks",
+      "salt": "a36QZBoJ",
+      "md5": "3024cd2cb1d8e814b6fffe486fa55f84",
+      "sha1": "7f05dd94de4eb6851fcda27d23cf0132cecb57e1",
+      "sha256": "87ded4c7b9d7cf6a643e0e64a3eb880c910a892ccdcea2c8b97d397ea5b8babf"
+    },
+    "dob": {
+      "date": "1973-09-12T13:15:39.222Z",
+      "age": 51
+    },
+    "registered": {
+      "date": "2018-10-28T03:41:14.093Z",
+      "age": 6
+    },
+    "phone": "E67 G97-9651",
+    "cell": "W03 J48-4660",
+    "id": {
+      "name": "SIN",
+      "value": "308860121"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/15.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/15.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+    },
+    "nat": "CA"
   }
 ]

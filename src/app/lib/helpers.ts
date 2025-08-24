@@ -4,6 +4,7 @@ import WalletIcon from "../svgs/transaction/WalletIcon";
 import { TransactionCategory } from "../types/transactionTypes";
 import { TransferType } from "../types/transferType";
 
+// Formats a date string to HH:mm (24-hour) format.
 export const formatTime = (dateString: string) => {
   const date = new Date(dateString);
   return date.toLocaleTimeString("en-US", {
@@ -13,6 +14,7 @@ export const formatTime = (dateString: string) => {
   });
 };
 
+// Formats a date string to 'MMM DD, YYYY · HH:mm' format.
 export const formatDate = (dateString: string) => {
   const date = new Date(dateString);
   const dateStr = date.toLocaleDateString("en-US", {
@@ -28,6 +30,7 @@ export const formatDate = (dateString: string) => {
   return `${dateStr} · ${timeStr}`;
 };
 
+// Formats a date string to 'Month DD, YYYY' format.
 export const formatLongDate = (dateString: string) => {
   const date = new Date(dateString);
   return date.toLocaleDateString("en-US", {
@@ -37,6 +40,7 @@ export const formatLongDate = (dateString: string) => {
   });
 };
 
+// Formats a number as USD currency.
 export const formatAmount = (amount: number) => {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -44,6 +48,7 @@ export const formatAmount = (amount: number) => {
   }).format(amount);
 };
 
+// Returns '+' for income, '-' for other transaction types.
 export const getAmountTypeSign = (type: TransactionCategory) => {
   return type === "income" ? "+" : "-";
 };
@@ -55,6 +60,7 @@ const transactionIcons = {
   insurance: ArrowDownIcon,
 };
 
+// Returns the icon component for a transaction type.
 export const getTransactionTypeIcon = (type: TransactionCategory) => {
   return transactionIcons[type];
 };
@@ -66,15 +72,18 @@ const transactionsLabels = {
   insurance: "Insurance",
 };
 
+// Returns a user-friendly label for a transaction type.
 export const getLabelForTransactionType = (type: TransactionCategory) => {
   return transactionsLabels[type] || type;
 };
 
+// Finds and returns a user by ID from localStorage.
 export const getUser = (userId: string) => {
   const users = JSON.parse(localStorage.getItem("wayni_recent_users") || "[]");
   return users.find((user: { id: string }) => user.id === userId);
 };
 
+// Filters transfers by a specific date. Returns all if date is null.
 export const filterTransfersByDate = (
   transfers: TransferType[],
   date: Date | null
@@ -91,6 +100,7 @@ export const filterTransfersByDate = (
   });
 };
 
+// Loads mock data into localStorage if not already present.
 export const fillLocalStorageWithMockData = async () => {
   const wayniTransactions = localStorage.getItem("wayni_transactions");
   const wayniTransfers = localStorage.getItem("wayni_transfers");
