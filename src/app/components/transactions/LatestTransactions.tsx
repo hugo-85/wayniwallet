@@ -8,11 +8,11 @@ const LatestTransactions: FC = () => {
   const { data } = useTransactions();
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex-1 max-h-full flex flex-col gap-4 overflow-auto scrollbar-hide">
       <h1 className="text-xl font-bold text-black text-center">
         Latest Transactions
       </h1>
-      <ul>
+      <ul className="flex-1 overflow-auto scrollbar-hide">
         {data?.map((transaction) => (
           <TransactionItem key={transaction.id} transaction={transaction} />
         ))}

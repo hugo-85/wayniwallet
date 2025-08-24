@@ -5,9 +5,18 @@ import { UserType } from "@/app/types/userTypes";
 interface UserAvatarProps {
   user: UserType;
   fullName?: boolean;
+  width?: number;
+  height?: number;
+  hideName?: boolean;
 }
 
-const UserAvatar: FC<UserAvatarProps> = ({ user, fullName }) => {
+const UserAvatar: FC<UserAvatarProps> = ({
+  user,
+  fullName,
+  width,
+  height,
+  hideName,
+}) => {
   const name = fullName
     ? user.name.first + " " + user.name.last
     : user.name.first;
@@ -16,11 +25,13 @@ const UserAvatar: FC<UserAvatarProps> = ({ user, fullName }) => {
       <Image
         src={user.picture.thumbnail}
         alt={name}
-        width={65}
-        height={65}
+        width={width || 65}
+        height={height || 65}
         className="rounded-full"
       />
-      <span className="text-sm font-medium text-center">{name}</span>
+      {!hideName && (
+        <span className="text-sm font-medium text-center">{name}</span>
+      )}
     </div>
   );
 };

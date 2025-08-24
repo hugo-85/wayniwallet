@@ -4,6 +4,7 @@ import { FC, useEffect, useLayoutEffect, useState } from "react";
 import { useWalletStore } from "@/app/store/walletStore";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { fillLocalStorageWithMockData } from "@/app/lib/helpers";
+import Image from "next/image";
 
 // Create a client
 const queryClient = new QueryClient();
@@ -37,7 +38,12 @@ const Main: FC<MainProps> = ({ children }) => {
     <QueryClientProvider client={queryClient}>
       <main>
         {!loading && children}
-        {loading && <p>Loading...</p>}
+        {loading && (
+          <div className="flex flex-col gap-10 justify-center items-center h-full">
+            <Image src="/wsplash.gif" alt="WAYNI+" width={200} height={200} />
+            <h1 className="text-white text-6xl font-extrabold">WAYNI+</h1>
+          </div>
+        )}
       </main>
     </QueryClientProvider>
   );

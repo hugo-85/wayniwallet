@@ -19,6 +19,8 @@ export const useWalletStore = create<State>()(
       user: null,
       balance: 0,
       fetchCurrentUser: async () => {
+        // simulate delay
+        await new Promise((resolve) => setTimeout(resolve, 3000));
         const { user, balance } = await fetchCurrentUser();
         set({ user, balance });
         return user;

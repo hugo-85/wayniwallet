@@ -2,6 +2,7 @@ import ArrowDownIcon from "../svgs/transaction/ArrowDownIcon";
 import TwoArrowIcon from "../svgs/transaction/TwoArrowIcon";
 import WalletIcon from "../svgs/transaction/WalletIcon";
 import { TransactionCategory } from "../types/transactionTypes";
+import { TransferType } from "../types/transferType";
 
 export const formatTime = (dateString: string) => {
   const date = new Date(dateString);
@@ -72,6 +73,22 @@ export const getLabelForTransactionType = (type: TransactionCategory) => {
 export const getUser = (userId: string) => {
   const users = JSON.parse(localStorage.getItem("wayni_recent_users") || "[]");
   return users.find((user: { id: string }) => user.id === userId);
+};
+
+export const filterTransfersByDate = (
+  transfers: TransferType[],
+  date: Date | null
+) => {
+  if (!date) return transfers;
+  const d = new Date(date);
+  return transfers.filter((t) => {
+    const tDate = new Date(t.date);
+    return (
+      tDate.getDate() === d.getDate() &&
+      tDate.getMonth() === d.getMonth() &&
+      tDate.getFullYear() === d.getFullYear()
+    );
+  });
 };
 
 export const fillLocalStorageWithMockData = async () => {

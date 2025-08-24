@@ -4,7 +4,7 @@ import RecentUsers from "../recentUsers/RecentUsers";
 
 const Home: FC = () => {
   return (
-    <section>
+    <section className="flex flex-col max-h-[calc(100%-30px)]">
       <RecentUsers />
       <LatestTransactions />
     </section>

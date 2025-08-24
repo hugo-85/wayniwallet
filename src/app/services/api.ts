@@ -1,6 +1,7 @@
 import { TransactionType } from "./../types/transactionTypes";
 import { TransferType } from "../types/transferType";
 import { UserType } from "../types/userTypes";
+import { filterTransfersByDate } from "../lib/helpers";
 
 const API_URL =
   process.env.NODE_ENV === "production"
@@ -47,15 +48,18 @@ export const fetchRecentUsers = async (): Promise<UserType[]> => {
   return response.json();
 };
 
-export const fetchLatestTransfers = async (): Promise<TransferType[]> => {
+export const fetchLatestTransfers = async (
+  date: Date | null
+): Promise<TransferType[]> => {
   const localStorageData = localStorage.getItem("wayni_transfers");
   if (localStorageData) {
-    return JSON.parse(localStorageData);
+    return filterTransfersByDate(JSON.parse(localStorageData), date);
   }
 
   const response = await fetch("/transfersData.json");
   if (!response.ok) throw new Error("Failed to fetch latest transfers");
-  return response.json();
+  const data = await response.json();
+  return filterTransfersByDate(data, date);
 };
 
 export const fetchTransfer = async (id: string): Promise<TransferType> => {
