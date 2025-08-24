@@ -3,10 +3,10 @@ import { TransferType } from "../types/transferType";
 import { UserType } from "../types/userTypes";
 import { filterTransfersByDate } from "../lib/helpers";
 
-const API_URL =
-  process.env.NODE_ENV === "production"
-    ? process.env.API_URL
-    : "https://randomuser.me/api";
+const API_URL = "https://randomuser.me/api";
+// process.env.NODE_ENV === "production"
+//   ? process.env.API_URL
+//   : "https://randomuser.me/api";
 
 export const fetchCurrentUser = async (): Promise<{
   user: UserType;

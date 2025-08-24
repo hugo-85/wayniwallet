@@ -24,7 +24,6 @@ wayniwallet/
 ├── public/                # Static assets (SVGs, JSON data, images)
 ├── src/
 │   └── app/
-│       ├── api/           # API route handlers
 │       ├── components/    # Reusable UI components
 │       │   ├── customs/   # Custom UI elements (Button, DatePicker, TextArea)
 │       ├── hooks/         # Custom React hooks for data fetching and logic
