@@ -38,6 +38,8 @@ export const fetchTransactions = async (): Promise<TransactionType[]> => {
 };
 
 export const fetchRecentUsers = async (): Promise<UserType[]> => {
+  // simulate delay
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   const localStorageData = localStorage.getItem("wayni_recent_users");
   if (localStorageData) {
     return JSON.parse(localStorageData);
